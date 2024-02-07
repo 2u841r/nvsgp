@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "SLP";
+    src: url('../fonts/slp.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "BSH";
+    src: url('../fonts/bsh.ttf') format('truetype');
+}
+
+
+:root {
+    --font-family-selectorname: Arial, sans-serif;
+    /* Default value */
+}
+
+.selectorname {
+    font-family: var(--font-family-selectorname);
+}
+
+* {
+    /* background-color: paleturquoise; */
+    margin: 0;
+    padding: 0;
+    /* font-family: 'hahalipi'; */
+}
+
+.userSetting {
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userSetting > div > label{
+    font-size: 1rem;
+}
+
+#selectFontSize,
+#selectBackgroundColor,
+#selectFontFamily {
+    font-size: 12px;
+    width: auto;
+    justify-content: space-between;
+}
+
+.userSetting > div{ 
+    margin: auto auto auto auto;
+    padding: 0 0.6rem;
+}
+
+select {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    font-family: "BSH";
+    /* white-space: normal; */
+}
+
+.answer {
+    background-color: yellow;
+    width: 75%;
+    margin: auto auto 30% auto;
+    padding: 10px 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.ftr {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.first-div {
+    margin: 1rem auto 0 auto;
+    width: 80%;
+    position: relative;
+    font-size: 12px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown Mas-a-lah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Hind+Siliguri&family=Tiro+Bangla&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <div class="userSetting">
+        <div>
+            <label for="selectFontSize">Font Size</label>
+            <select name="selectFontSize" id="selectFontSize">
+                <option value="12px">12px</option>
+                <option value="16px">16px</option>
+                <option value="20px">20px</option>
+                <option value="24px">24px</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="selectBackgroundColor">BG Color</label>
+        <select name="selectBackgroundColor" id="selectBackgroundColor">
+            <option value="yellow">Yellow</option>
+            <option value="pink">Pink</option>
+            <option value="grey">Grey</option>
+            <option value="orange">Orange</option>
+        </select>
+        </div>
+
+
+       <div>
+        <label for="selectFontFamily">Font Family</label>
+        <select name="selectFontFamily" id="selectFontFamily">
+            <option value="'Alkatra', system-ui">Alkatra</option>
+            <option value="'Hind Siliguri', sans-serif">Hind Siliguri</option>
+            <option value="'Tiro Bangla', serif">Tiro Bangla</option>
+            <option value="'SLP', serif">Shuvo Letterpress</option>
+            <option value="'BSH', serif">BenSen Hostolipi</option>
+        </select>
+       </div>
+       <div>
+        <button id="reset">Reset</button>
+       </div>
+    </div>
+
+
+    <br />
+    <h1 style="text-align: center;"> DropDown Mas-a-lah v1.0</h1>
+    <br />
+    <main>
+        <div style="text-align: center;">
+            <p>ক্যাটাগরি সিলেক্ট করুন</p>
+            <div id="container"> </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="first-div">
+            <p>
+                ১। একাধিক ভাষা যুক্ত করা
+                ২। ডার্ক-মোড সহ বিভিন্ন থিম বানানো
+                ৩। নতুন মাসয়ালা যুক্ত ও ভুল উত্তর রিপোর্টের বাটন যুক্তকরণ (প্রাধান্য পাবে, ইনশাল্লাহ)
+                ৪। যাকাত, উত্তরাধিকার, মোহরে ফাতেমী, সদকাতুল ফিতর ক্যালকুলেটর
+            </p>
+        </div>
+        <br>
+        <div class="ftr">
+            <a href="https://github.com/2u841r" target="_blank">© Zubair I.Z <i class="fa-brands fa-github"></i></a>
+            <p> Made with ❤️ in <img src="https://flagcdn.com/16x12/bd.png" /> </p>
+        </div>
+    </footer>
+
+
+
+    <script type="module" src="./scripts/index.js"></script>
+    <script src="./styles/style.js"> </script>
+</body>
